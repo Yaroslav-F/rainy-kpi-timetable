@@ -1,0 +1,5 @@
+<div class="row pricing-table">
+  <% @week2.each do |day| %>
+    <%= partial("shared/day", locals: {day: day}) %>
+  <% end %>
+</div>
