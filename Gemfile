@@ -1,5 +1,5 @@
 source "https://rubygems.org/"
-ruby "ruby-2.0.0"
+ruby "2.0.0"
 # App Stack
 gem "sinatra", "~> 1.4"
 gem 'puma'
